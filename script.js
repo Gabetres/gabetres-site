@@ -10,13 +10,15 @@ mode.addEventListener('click', () => {
     if(mode.classList.contains('fa-moon')){
         mode.classList.remove('fa-moon');
         mode.classList.add('fa-sun');
-        document.getElementById("changeimage").src="img/gabrielblue.png";
+        document.getElementById("blue").style.display="inline";
+        document.getElementById("red").style.display="none";
 
 
         return;
     }
         mode.classList.add('fa-moon');
         mode.classList.remove('fa-sun');
-        document.getElementById("changeimage").src="img/gabrielred.png"
+        document.getElementById("red").style.display="inline";
+        document.getElementById("blue").style.display="none";
     }
 );
