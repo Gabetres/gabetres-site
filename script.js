@@ -10,7 +10,7 @@ mode.addEventListener('click', () => {
     if(mode.classList.contains('fa-moon')){
         mode.classList.remove('fa-moon');
         mode.classList.add('fa-sun');
-        document.getElementById("changeimage").src="img/gabrielblue.jpg"
+        document.getElementById("changeimage").src="img/gabrielblue.png"
 
         return;
     }
