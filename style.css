@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'SF Pro Display' ;
+    src: url(sf-pro-display-cufonfonts.zip);
+}
+
 :root {
     --main: #e01e37;
     --body-color: #000000;
