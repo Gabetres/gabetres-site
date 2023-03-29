@@ -6,6 +6,7 @@ const darkMode = localStorage.getItem("darkMode");
 //armazenar local storage
 if (darkMode === "true") {
   html.classList.add('dark-mode');
+  mode.classList.remove('fa-moon');
   mode.classList.add('fa-sun');
   document.getElementById("blue").style.display="inline";
   document.getElementById("red").style.display="none";
@@ -35,4 +36,3 @@ mode.addEventListener('click', function(){
       document.getElementById("blue").style.display="none";
     }
   });
-  
