@@ -1,15 +1,13 @@
 @font-face {
     font-family:'SF Pro Display' ;
     src: url(fonts/SFPRODISPLAYBLACKITALIC.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYBOLD.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYHEAVYITALIC.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYLIGHTITALIC.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYMEDIUM.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYTHINITALIC.OTF) format("OTF"),
-         url(fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF) format("OTF");
+         url(fonts/SFPRODISPLAYBLACKITALIC.TTF) format("TTF"),
+         url(fonts/SFPRODISPLAYBLACKITALIC.WOFF) format("woff"),
+         url(fonts/SFPRODISPLAYBLACKITALIC.WOFF2) format("woff2");
+    font-style: normal;
+    font-weight: normal;
 }
+
 
 :root {
     --main: #e01e37;
